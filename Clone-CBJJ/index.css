@@ -1,0 +1,448 @@
+/* All Config - Beginning*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* All Config - End */
+
+/* a Config - Beginning */
+a:hover{
+    cursor: pointer;
+}
+/* a Config - Beginning */
+
+/* Body Config - Beginning*/
+body{
+    overflow-x: hidden;
+    width: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Body Config - End */
+
+/* Header Config - Beginning */
+header{
+    width: 100%;
+    background-color: #113704ab;
+    position: fixed;
+    z-index: 1;
+}
+header div{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header div nav ul{
+    list-style-type: none;
+}
+header div nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+header a{
+    padding: 10px;
+    color: #fff;
+}
+header a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #FCAF17;
+}
+header div img.icon{
+    width: 30px;
+}
+header div img.icon:hover{
+    width: 50px;
+}
+header img.logo{
+    width: 10em;
+    padding: 5px 0;
+}
+header img.logo:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/* Header Config - End */
+
+/* Main Config - Beginning */
+
+/* Section Intro Config - Beginning */
+#intro-1{
+    height: 100vh;
+    width: 100%;
+    background: url(img/background.jpg) no-repeat center;
+    -moz-background-attachment: fixed;
+    -ms-background-attachment: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#intro-2{
+    height: 80vh;
+    width: 100%;
+    background: url(img/background2.jpg) no-repeat center;
+    -moz-background-attachment: fixed;
+    -ms-background-attachment: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #fff;
+}
+#intro a{
+    width: 50%;
+}
+#intro img{
+    width: 100%;
+}
+/* Section Intro Config - End */
+
+main section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    background-color: rgba(142, 142, 143, 0.185);
+}
+main section h2{
+    color:rgba(13, 43, 25, 0.8) ;
+    margin: 20px;
+}
+main section div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.button{
+    border: 2px solid rgba(13, 43, 25, 0.8);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #fff ;
+    color:rgba(13, 43, 25, 0.8) ;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px;
+}
+.button:hover{
+    color: #fff;
+    background-color: rgba(13, 43, 25, 0.8) ;
+}
+/* Section Campeonato Config - Beginning */
+
+#campeonatos img{
+    width: 300px;
+    height: 90%;
+}
+
+#campeonatos img:hover{
+    zoom: 110%;    
+}
+#campeonatos article{
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;    
+}
+#campeonatos span{
+    background-color: #fff;
+    width: 148px;
+    padding: 10px;
+    margin-top: 1px;
+    margin-left: 1px;
+    color: rgba(0, 0, 0, 0.6);
+    
+}
+
+#brasileiro div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Section Campeonato Config - End */
+
+/* Section Ultimas Noticias Config - Beginning */
+#ultimas-noticias{
+    height: 70vh;
+    width: 100vw;
+    margin: 0 auto;
+    background-color: #fff;
+    justify-content: space-around;
+}
+#ultimas-noticias h4{
+    border-left: 2px solid #F9A70D;
+    padding-left: 10px;
+    margin:20px 0 5px 0 ;
+    text-transform: uppercase;
+}
+#ultimas-noticias a{
+    padding-left: 10px;
+    font-size: 20px;
+    color:rgba(13, 43, 25, 0.8) ;
+}
+#ultimas-noticias article:hover{
+    
+    background-color: rgba(142, 142, 143, 0.185);
+}
+#ultimas-noticias article{
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 300px;
+    border:1px solid rgba(142, 142, 143, 0.185);
+}
+#ultimas-noticias .button:hover{
+    color: #fff;
+    background-color: rgba(13, 43, 25, 0.8) ;
+}
+/* Section Ultimas Noticias Config - End */
+
+/* Section Ranking Config - Beginning */
+#ranking{
+    background-image: url(img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+    justify-content: flex-start;
+   
+}
+#ranking h2{
+    margin: 40px 0;
+    color: #fff;
+}
+#ranking span.rank-t{
+    margin: 20px 0;
+    font-size: 20px;
+    color: #fff;
+}
+#ranking div{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline; 
+    flex-wrap: wrap;
+}
+#ranking article{
+    margin: 10px 0;
+    width: 40vw;
+}
+#ranking article ul{
+    list-style-type: none;
+}
+#ranking article ul li{
+    background-color: #fff;
+    border-bottom: 1px solid rgba(142, 142, 143, 0.185);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#ranking article ul li .posicao-ranking h4{
+    margin:0 20px; ;
+    font-size: 60px;
+}
+#ranking article ul li .nome-atleta{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+}
+#ranking article ul li .nome-atleta a{  
+    font-size: 25px;
+    color: black;
+}
+#ranking article ul li .nome-atleta a:hover{
+    color: #22680b;
+}
+#ranking article ul li .nome-atleta p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.425);
+}
+#ranking article ul li .pontos-ranking{
+    margin:0 20px; 
+    font-size: 30px;
+}
+#ranking .button{
+    text-align: center;
+    width: 100%;
+    border: 2px solid #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: rgba(39, 88, 59, 0.8) ;    
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#ranking .button:hover{
+    background-color: #fff ;
+    color:rgba(13, 43, 25, 0.8) ;
+    border: 2px solid rgba(39, 88, 59, 0.8);
+
+}
+/* Section Ranking Config - End */
+/* Section Info Config - Beginning */
+#info{
+    padding: 100px 0;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+#info article{
+    margin: 40px 0;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+#info article a{
+    height: 300px;
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+}
+#info article img{
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#info article a img:hover{
+    max-width: 100%;
+    max-height: 300px;
+    
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform:scale(1.1) ;
+}
+#info article h3{
+    color: rgba(39, 88, 59, 0.8);
+}
+#info article span{
+    width: 80%;
+    color: rgba(0, 0, 0, 0.6);
+}
+/* Section Info Config - End */
+/* Main Config - end*/
+
+/* Footer Config - Beginning */
+footer{
+    height: 50vh;
+    background-color: #154e3c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom:1px solid rgba(255, 255, 255, 0.4);
+}
+footer div img{
+    display: block;
+}
+footer div a{
+    text-decoration: none;
+    color: #F9A70D;
+    margin: 10px 0;
+}
+footer div a:hover{
+    color: blue;
+}
+footer nav ul{
+    list-style-type: none;
+}
+footer nav ul li{
+
+    display: inline;
+}
+footer nav ul li a{
+    padding:2px 10px;
+    margin: 5px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.8);    
+}
+footer nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+/* Footer Config - End */
+
+/* Media Querys - Beginning */
+
+/* Hidden the "header nav" and changing the "header" background-color*/
+/* Changing the "footer nav ul li" display and the "footer" height */
+@media all and (max-width:1000px){
+    header{
+        background-color: #154e3c;
+    }
+    header nav{
+        display: none;
+    }
+    footer{
+        height: 70vh;
+    }
+    footer nav ul li{
+        display: block;
+    }
+    footer nav ul li a:hover{
+        padding: 0 10px;
+        background-color: #154e3c;
+    }
+}
+/* Changing the "#campeonatos div" flex-direction */
+@media screen and (max-width:800px){
+    #ranking{
+        padding: 0;
+    }
+    #ranking div{
+        margin: 10px 0;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    #ranking article div{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #ranking article{
+        margin: 0 auto;
+        width: 80%;
+    }
+    #ranking article ul li .posicao-ranking h4{
+        margin:0 10px; ;
+        font-size: 40px;
+    }
+    #ranking article ul li .nome-atleta{
+        margin: 5px;
+    }
+    #ranking article ul li .nome-atleta a{  
+        font-size: 20px;
+    }
+    #ranking article ul li .nome-atleta p{
+        font-size: 10px;
+    }
+    #ranking article ul li .pontos-ranking{
+        margin:0 10px; 
+        font-size: 20px;
+    }
+}
+/* Media Querys - End */
